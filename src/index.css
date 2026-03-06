@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(
+    circle at 20% 0%,
+    #fef9c3 0%,
+    #fff7ed 35%,
+    #ffffff 100%
+  );
+  color: #1f2937;
+}
