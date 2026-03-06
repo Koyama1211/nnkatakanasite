@@ -7,7 +7,7 @@ describe('App', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /Learn katakana with a personal, focused study flow\./i,
+        name: /nana专用片假名练习帐/i,
       }),
     ).toBeInTheDocument()
   })
